@@ -1,0 +1,16 @@
+node_modules
+gulpfile.js
+package-lock.json
+
+# ignore everything in the root except the "wp-content" directory.
+!public/wp-content
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+public/wp-content/*
+!public/wp-content/mu-plugins/
+!public/wp-content/plugins/
+!public/wp-content/themes/
+
+# ignore specific themes
+wp-content/themes/twenty*/

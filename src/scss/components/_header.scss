@@ -1,0 +1,45 @@
+header {
+  background: $white;
+  box-shadow: 0 5px 10px rgba(0,0,0,.16);
+  z-index: 20;
+  width: 100%;
+
+  .navbar {
+    .nav-item {
+      margin-bottom: 0;
+
+      .nav-link {
+        color: $black;
+        font-size: 0.9rem;
+        font-weight: 800;
+        padding: 20px 10px;
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          color: $black;
+          background: $soft-green;
+        }
+
+        &.btn-success {
+          color: $success;
+          padding: 10px;
+        }
+      }
+      &.cta{
+        margin: 3px 0 0 10px;
+
+        .nav-link{
+          box-shadow: none;
+          color: $success;
+          padding: 15px;
+
+          &:hover{
+            color: $white;
+            background: $success;
+          }
+        }
+      }
+    }
+  }
+}

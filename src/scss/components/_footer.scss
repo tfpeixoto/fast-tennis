@@ -1,0 +1,55 @@
+footer{
+  color: $white;
+  background: $black;
+
+  .footer-nav{
+    .marca-footer{
+      margin-top: 5px;
+    }
+    .menu-footer{
+      .nav-item{
+        .nav-link{
+          color: $soft-green;
+          padding: 0 0 5px;
+        }
+      }
+    }
+    .menu-contato{
+      li{
+        margin-bottom: 10px;
+
+        a{
+          color: $white;
+  
+          i{
+            color: $soft-green;
+            font-size: 2rem;
+            padding-right: 5px;
+  
+            &.fa-phone-alt{
+              font-size: 1.5rem;
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+    }
+    .menu-social{
+      a{
+        color: $soft-green;
+
+        i{
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .copyright{
+    background: $soft-green;
+    color: $black;
+
+    p{
+      margin-bottom: 0;
+    }
+  }
+}

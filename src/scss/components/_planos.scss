@@ -1,0 +1,72 @@
+.planos{
+  background: url(../images/jogador-tenis.jpg) no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+
+  h2{
+    margin-bottom: 3rem;
+  }
+  .boxes-planos{
+    .card{
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,.16);
+      overflow: hidden;
+
+      .card-title{
+        color: $success;
+        font-size: 2rem;
+        line-height: 1.2;
+        text-transform: uppercase;
+    
+        .small{
+          color: $black;
+          font-size: .8rem;
+          text-transform: initial;
+        }
+      }
+      .preco{
+        p{
+          color: $success;
+          font-family: "Oswald", sans-serif;
+          font-size: 6rem;
+          font-weight: 800;
+          position: relative;
+
+          .cifrao{
+            color: $black;
+            font-size: 1rem;
+            font-weight: 800;
+            left: 60px;
+            top: 30px;
+            position: absolute;
+          }
+          .aula{
+            color: $black;
+            font-size: 1.3rem;
+            font-weight: normal;
+            margin-left: -25px;
+          }
+        }
+      }
+      .matricula{
+        background: $success;
+        color: $white;
+        font-weight: 700;
+        padding: 5px 0;
+      }
+      .beneficios{
+        padding: 20px;
+        text-align: left;
+
+        li{
+          margin-bottom: 10px;
+
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
